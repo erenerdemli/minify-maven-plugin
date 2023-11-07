@@ -1,3 +1,21 @@
+#Add Jitpack Plugin Version Match
+
+
+
+<pluginRepository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</pluginRepository>
+
+ <plugin>
+      <groupId>com.github.erenerdemli</groupId>
+      <artifactId>minify-maven-plugin</artifactId>
+      <version>2_8_0_PATCHPUMP_R10</version>
+      <executions>
+      ...
+      </executions>
+ </plugin>
+
 # Minify Maven Plugin
 
 Minify Maven Plugin combines and minimizes your CSS and JavaScript files for faster page loading. It produces a merged and a minified version of your CSS and JavaScript resources which can be re-used across your project.
